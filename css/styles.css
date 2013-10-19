@@ -1,0 +1,63 @@
+html {
+	background-color: #bab985;
+}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+.clearfix:before, .clearfix:after {
+	content: "";
+	clear: both;
+	display: block;
+	line-height: 0;
+}
+
+
+#logo {
+	float: left;
+	margin: 10px;
+
+}
+
+
+[data-role="header"] p {
+font-size: 150%;
+}
+
+.plusSign {
+	float: right;
+	margin-top: -55px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+
+[data-role="footer"] p {
+text-align: center;
+}
+
+.minusSign {
+	float: right;
+	margin-top: -45px;
+	margin-right: 100px;
+	cursor: pointer;
+	text-align: center;
+}
+
+#userListItems li {
+	padding: 0px;
+	margin-top: 0px;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+}
+
+#userListItems label {
+	border-radius: 0px;
+		-webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+}
